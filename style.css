@@ -81,10 +81,10 @@ nav a {
   }
 .story-button {
     color: rgb(12, 236, 218);;
-    border: 2px solid rgb(12, 236, 218);
+    border: 1px solid rgb(12, 236, 218);
     text-align: center;
     padding: 6px 10px;
-    margin: 5px 0px 0px 150px ;
+    margin: 5px 0px 10px 150px ;
     
   }
   .story-button:hover {
@@ -140,3 +140,58 @@ nav a {
     background-image: url("../psd_to_html/images/bgk-header.png");
 }
 
+#contact{
+    display: block;
+    
+    
+}
+.contact-info {
+    float: left;
+    margin: 20px 0px 0px 400px ;
+   
+}
+.contact-info-heading{
+  margin: 20px 0px 20px 00px ;
+}
+.grid-container1{
+  display: grid;
+    display: inline-grid;
+}
+input[type=text] {
+    width: 300px;
+    height: 35px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  #massage{
+    height: 100px;
+
+  }
+  .contact-button{
+    color: rgb(12, 236, 218);;
+    border: 1px solid rgb(12, 236, 218);
+    padding: 6px 15px;
+    margin: 10px 0px 10px 10px ;
+  }
+  .contact-button:hover {
+    color: white;
+    background-color: rgb(12, 236, 218);
+    transition: linear 0.3s;
+  }
+  
+.logo{
+    float: right;
+    margin: 20px 0px 20px 0px ;
+}
+
+  .grid-container {
+    display: grid;
+    display: inline-grid;
+    grid-template-columns:auto auto ;
+    gap: 3px 50px;
+    padding: 0px;
+  }
+  .grid-item {
+    padding: 20px;
+  }
