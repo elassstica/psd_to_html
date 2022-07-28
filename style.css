@@ -1,10 +1,9 @@
 * {
-    padding 0px;
+    padding: 0px;
     margin: 0px;
+
 }
-body {
-    
-}
+
 #header {
     color: whitesmoke;
     display: flex;
@@ -47,9 +46,26 @@ nav a {
 #title1 {
     display: block;
     text-align: center;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#subtitle1 {
+    display: block;
+    text-align: center;
+    color: white;
 }
 
 .team {
+    height: 500px;
     background-size: cover;
-    background-image: url("../psd_to_html/images/bgk-header.png");
+    background-image: url("images/bgk-header.png");
+}
+
+.card__image {
+    
+    height: 200px;
+    width: 100px;
+    background-color: white;
 }
