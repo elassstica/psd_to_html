@@ -1,11 +1,4 @@
 * {
-
-    padding: 0px;
-    margin: 0px;
-
-}
-
-
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -15,7 +8,6 @@ body {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
-
 #header {
     justify-content: flex-end;
     align-items: flex-start;
@@ -85,17 +77,6 @@ nav a {
     margin: 10px 200px 20px 0px ;
     max-width: 700px;
     text-align: center;
-
-    color: white;
-    padding-top: 80px;
-    padding-bottom: 20px;
-}
-
-#subtitle1 {
-    display: block;
-    text-align: center;
-    color: white;
-
   }
 .story-button {
     color: rgb(12, 236, 218);;
@@ -115,7 +96,6 @@ nav a {
 .text{
     display: flex;
     flex-wrap: wrap;
-
 }
 .header-titel {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
@@ -184,20 +164,6 @@ padding: 30px;
     text-decoration: none;
     color:  rgb(8, 90, 117);
   }
-
-
-.team {
-    height: 500px;
-    background-size: cover;
-    background-image: url("images/bgk-header.png");
-}
-
-.card__image {
-    
-    height: 200px;
-    width: 100px;
-    background-color: white;
-}
 
   .watch {
     width: 100%;
@@ -272,4 +238,3 @@ input[type=text] {
   .grid-item {
     padding: 20px;
   }
-
